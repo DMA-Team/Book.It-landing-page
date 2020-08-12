@@ -18,17 +18,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   </head>
   <body>
-   <section class="first-body">
+    <section class="first-body">
       <header class="header" data-aos="fade-down" data-aos-delay="900">
         <img src="" alt="Logo" class="logo" />
         <nav class="main-nav">
-              <a href="#heading" class="item-link">Главная</a>
-              <a href="#information" class="item-link">О нас</a>
-              <a href="#instagram" class="item-link">Мы в соцсетях</a>
+          <a href="#heading" class="item-link">Главная</a>
+          <a href="#information" class="item-link">О нас</a>
+          <a href="#instagram" class="item-link">Мы в соцсетях</a>
         </nav>
-         <a href="#register-block"><button class="register-button">Регистрация</button></a>
+        <a href="#register-block"
+          ><button class="register-button">Регистрация</button></a
+        >
       </header>
-      <div class="heading" id="heading" data-aos="fade-right" data-aos-delay="800">
+      <div
+        class="heading"
+        id="heading"
+        data-aos="fade-right"
+        data-aos-delay="800"
+      >
         Полный контроль вашего бизнеса в одном приложении
       </div>
       <h2 class="subheading" data-aos="fade-right" data-aos-delay="1200">
@@ -41,7 +48,7 @@
       >
         Подробнее
       </button>
-         <img
+      <img
         src="img/undraw_mobile_ux_o0e1%202.png"
         alt="Second-illustration"
         class="second-illustration"
@@ -51,7 +58,7 @@
         alt="First-illustration"
         class="first-illustration"
       />
-        <img
+      <img
         src="img/undraw_mobile_ux_o0e1%202.png"
         alt="Second-illustration"
         class="second-illustration"
@@ -84,7 +91,7 @@
       </div>
     </div>
 
-     <div class="thirdpart">
+    <div class="thirdpart">
       <div class="third-heading" data-aos="fade-down">Наши преимущества</div>
       <div class="advantage-content" data-aos="flip-down">
         <div class="advantage-block">
@@ -177,11 +184,13 @@
         </div>
       </div>
     </div>
-        <section class="tarif">
+    <section class="tarif">
       <div class="background"></div>
       <p class="t-heading" data-aos="zoom-out">Тарифы</p>
       <div class="tabs">
-        <div class="tabs-button t-salons active" data-aos="flip-down">Салоны</div>
+        <div class="tabs-button t-salons active" data-aos="flip-down">
+          Салоны
+        </div>
         <div class="tabs-button t-masters" data-aos="flip-down">Мастера</div>
       </div>
       <div class="wrapper-salon">
@@ -271,31 +280,78 @@
 
     <section class="register-block" id="register-block" align="center">
       <p class="register-heading" data-aos="zoom-in-down">
-        Оформив предподписку всего за <font class="blue">500 ₸</font> Вы получите скидку
-        <font  class="blue">50%</font> на трехмесячное использование после выхода приложения!
+        Оформив предподписку всего за <font class="blue">500 ₸</font> Вы
+        получите скидку <font class="blue">50%</font> на трехмесячное
+        использование после выхода приложения!
       </p>
       <button class="register-btn" data-aos="zoom-in-up">Регистрация</button>
+      <div class="user-signup hide">
+        <div class="modal__block">
+          <button class="modal-close">&#10008;</button>
+          <div class="tabs_items1">
+            <button class="tabs_item salons1 isactive" style="width: 120px;">Салоны</button>
+            <button class="tabs_item masters1" style="margin-left: 40px; width: 120px;">Мастера</button>
+          </div>
+          <form class="input-window salon" id="add-salon">
+             <input type="text" placeholder="Имя и фамилия" name="name" class="input">
+             <input type="text" placeholder="Номер телефона" name="lastname" class="input">
+             <input type="text" placeholder="Название салона" name="salonname" class="input">
+             <input type="email" placeholder="Адрес эл. почты" name="email" class="input">
+             <input type="password" placeholder="Пароль" name="password" class="input">
+             <div class="justdiv1">
+              <div class="justdiv"><input id="agreement" name="agreement" type="checkbox" class="checkbox" required><div class="conditions">Согласен с условиями пользовательского<br> соглашения</div></div>
+              <div class="justdiv"><input id="notifications" type="checkbox" name="notifications" class="checkbox" checked>
+              <div class="conditions">Хочу получать все новости о проекте</div></div>
+             </div>
+             <button class="registerbtn">Зарегистрироваться</button> 
+          </form>
+          <form class="input-window master hide" id="add-master" style="padding-top: 5px;">
+              <input type="text" placeholder="Имя и фамилия" name="name" class="input" style="margin-top: 50px;">
+              <input type="text" placeholder="Номер телефона" name="lastname" class="input" style="margin-top: 10px;">
+              <input type="email" placeholder="Адрес эл. почты" name="email" class="input" style="margin-top: 10px;">
+              <input type="password" placeholder="Пароль" name="password" class="input" style="margin-top: 10px;">
+              <div class="justdiv1">
+               <div class="justdiv" style="margin-top: 10px;"><input id="agreement" name="agreement" type="checkbox" class="checkbox" required><div class="conditions">Согласен с условиями пользовательского<br> соглашения</div></div>
+               <div class="justdiv" style="margin-top: 10px;"><input id="notifications" type="checkbox" name="notifications" class="checkbox" checked>
+               <div class="conditions">Хочу получать все новости о проекте</div></div>
+              </div>
+              <button class="rstmaster" style="margin-top: 15px;">Зарегистрироваться</button> 
+          </form>
+        </div>
+      </div>
     </section>
     <!-- /.register-block -->
 
     <section class="contact">
       <img src="img/plane.png" alt="plane" class="plane" />
-        <a href="#register-block"><button class="contact-btn" data-aos="fade-up-left">Написать</button></a>
-      <h1 class="contact-heading" data-aos="flip-right">Есть вопросы? Напишите нам!</h1>
+      <h1 class="contact-heading" data-aos="flip-right">
+        Есть вопросы? Напишите нам!
+      </h1>
     </section>
 
     <section class="instagram" id="instagram">
       <img src="img/i-phone.png" alt="i-phone" class="i-phone" />
-      <div class="instagram-text"><h1 class="i-heading" data-aos="fade-down-left">Подпишитесь на нас<br> в Instagram!</h1>
-      <p class="i-text" data-aos="fade-left">
-        Хотите узнавать много нового из <br>мира красоты и о нашем приложении? Все
-        это ждет Вас в нашем Instagram!
-      </p>
-      <a href="https://instagram.com/dmagroup_startup?igshid=1vu1hswrdjosk"><button class="subscribe-button" data-aos="fade-up-left">Подписаться</button></a></div>
+      <div class="instagram-text">
+        <h1 class="i-heading" data-aos="fade-down-left">
+          Подпишитесь на нас<br />
+          в Instagram!
+        </h1>
+        <p class="i-text" data-aos="fade-left">
+          Хотите узнавать много нового из <br />мира красоты и о нашем
+          приложении? Все это ждет Вас в нашем Instagram!
+        </p>
+        <a href="https://instagram.com/dmagroup_startup?igshid=1vu1hswrdjosk"
+          ><button class="subscribe-button" data-aos="fade-up-left">
+            Подписаться
+          </button></a
+        >
+      </div>
     </section>
 
-     <div class="divushka">
-      <div class="vyxod" data-aos="flip-down">До выхода приложения Book.It осталось:</div>
+    <div class="divushka">
+      <div class="vyxod" data-aos="flip-down">
+        До выхода приложения Book.It осталось:
+      </div>
       <div class="countdown" data-aos="flip-up">
         <div class="time-section">
           <span class="count" id="days"></span>
