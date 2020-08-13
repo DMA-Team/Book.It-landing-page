@@ -2,9 +2,13 @@ body {
   margin: 0;
   font-family: "Nunito", sans-serif;
     overflow-x: hidden;
+  max-width:100%;
 }
 button{
     border: none;
+}
+.salons1{
+    margin-right: 40%;
 }
 .user-signup {
   z-index: 1000;
@@ -19,105 +23,110 @@ button{
   justify-content: center;
 }
 .modal__block {
-  width: 600px;
-  height: 600px;
+  width: 35%;;
+  height: 95%;;
   background-color: #fff;
-  padding: 30px;
-  max-width: 600px;
-  margin: 30px;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+    border-radius: 40px;
 }
 .modal-close {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 30px;
   background-color: transparent;
   border-color: transparent;
-  font-size: 24px;
-  line-height: 24px;
-  cursor: pointer;
+font-size: 25px;
+    cursor: pointer;
 }
 .tabs_items1 {
-  position: absolute;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: 300px;
-  font-size: 16px;
-  top: 10px;
+  margin-top: 5%;
+    height: 5%;
 }
 .tabs_item {
-  height: 50%;
   display: flex;
   justify-content: center;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
   border: none;
   background-color: white;
 }
+.justdiv1{
+width: 80%;
+}
 .input-window {
-  width: 450px;
+  width: 90%;
   background-color: white;
   border-radius: 25px;
-  height: 100%;
-  padding-top: 30px;
+  height: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .input {
+      margin-bottom: 2%;
   width: 80%;
-  height: 10%;
+  height: 6.5%;
   background: #ffffff;
   border: 1px solid black;
   border-radius: 43px;
   outline: none;
-  margin-bottom: 5%;
   font-size: 17px;
   padding-left: 5%;
   z-index: 0;
+}
+.d-owner{
+    margin-top: 3%;
+     width: 80%;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.d-karta{
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 2%;
 }
 .justdiv {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 5%;
+  margin-left: 0%;
   margin-bottom: 3%;
 }
 .conditions {
   margin-left: 10px;
-  width: 400px;
-  font-size: 17px;
+  font-size: 15px;
   color: #386efe;
+    text-align: left;
 }
 .registerbtn {
-  width: 70%;
-  height: 10%;
-  border-radius: 18px;
+  width: 60%;
+  height: 8%;
+  border-radius: 25px;
   background: #386efe;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   border-color: #386efe;
-  margin-bottom: 10px;
 }
 .rstmaster {
-  width: 70%;
-  height: 10%;
-  border-radius: 18px;
+  width: 60%;
+  height: 8%;
+  border-radius: 25px;
   background: #386efe;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   border-color: #386efe;
-  margin-bottom: 10px;
 }
 .isactive {
   border-bottom: 2px solid;
