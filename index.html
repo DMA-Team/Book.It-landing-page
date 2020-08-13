@@ -278,7 +278,7 @@
     </section>
     <!-- /.tarif -->
 
-    <section class="register-block" id="register-block" align="center">
+      <section class="register-block" id="register-block" align="center">
       <p class="register-heading" data-aos="zoom-in-down">
         Оформив предподписку всего за <font class="blue">500 ₸</font> Вы
         получите скидку <font class="blue">50%</font> на трехмесячное
@@ -289,33 +289,40 @@
         <div class="modal__block">
           <button class="modal-close">&#10008;</button>
           <div class="tabs_items1">
-            <button class="tabs_item salons1 isactive" style="width: 120px;">Салоны</button>
-            <button class="tabs_item masters1" style="margin-left: 40px; width: 120px;">Мастера</button>
+            <button class="tabs_item salons1 isactive" >Салоны</button>
+            <button class="tabs_item masters1">Мастера</button>
           </div>
           <form class="input-window salon" id="add-salon">
-             <input type="text" placeholder="Имя и фамилия" name="name" class="input">
-             <input type="text" placeholder="Номер телефона" name="lastname" class="input">
-             <input type="text" placeholder="Название салона" name="salonname" class="input">
-             <input type="email" placeholder="Адрес эл. почты" name="email" class="input">
-             <input type="password" placeholder="Пароль" name="password" class="input">
-             <div class="justdiv1">
-              <div class="justdiv"><input id="agreement" name="agreement" type="checkbox" class="checkbox" required><div class="conditions">Согласен с условиями пользовательского<br> соглашения</div></div>
-              <div class="justdiv"><input id="notifications" type="checkbox" name="notifications" class="checkbox" checked>
-              <div class="conditions">Хочу получать все новости о проекте</div></div>
-             </div>
+                <div class="d-owner">Данные владельца:</div>
+              <input type="text" placeholder="Имя и фамилия" name="name" class="input" required>
+              <input type="text" placeholder="Название салона" name="salonname" class="input" required>
+              <input type="tel" placeholder="Номер телефона" name="lastname" class="input" pattern="87[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}"  required>
+              <input type="password" placeholder="Пароль" name="password" class="input" required>
+              <div class="d-karta">Данные карты владельца:</div>
+              <input type="number" placeholder="Номер карты" name="name" class="input" required>
+              <input type="text" placeholder="CVV" name="name" class="input" required>
+              <input type="month" placeholder="Действует до" name="salonname" class="input" required>
+              <div class="justdiv1">
+                  <div class="justdiv"><input id="notifications" type="checkbox" name="notifications" class="checkbox" checked>
+               <div class="conditions">Хочу получать все новости о проекте</div></div>
+               <div class="justdiv" ><input id="agreement" name="agreement" type="checkbox" class="checkbox" required><div class="conditions" required>Согласен с условиями пользовательского<br> соглашения</div></div></div>
              <button class="registerbtn">Зарегистрироваться</button> 
           </form>
-          <form class="input-window master hide" id="add-master" style="padding-top: 5px;">
-              <input type="text" placeholder="Имя и фамилия" name="name" class="input" style="margin-top: 50px;">
-              <input type="text" placeholder="Номер телефона" name="lastname" class="input" style="margin-top: 10px;">
-              <input type="email" placeholder="Адрес эл. почты" name="email" class="input" style="margin-top: 10px;">
-              <input type="password" placeholder="Пароль" name="password" class="input" style="margin-top: 10px;">
+          <form class="input-window master hide hidee" id="add-master">
+              <div class="d-owner">Данные мастера:</div>
+              <input type="text" placeholder="Имя и фамилия" name="name" class="input" >
+              <input type="text" placeholder="Название салона (не обязательно)" name="salonname" class="input">
+              <input type="tel" placeholder="Номер телефона" name="lastname" class="input" pattern="87[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}"  required>
+              <input type="password" placeholder="Пароль" name="password" class="input" required>
+              <div class="d-karta">Данные карты мастера:</div>
+              <input type="number" placeholder="Номер карты" name="name" class="input">
+              <input type="text" placeholder="CVV" name="name" class="input" >
+              <input type="month" placeholder="Действует до" name="salonname" class="input" >
               <div class="justdiv1">
-               <div class="justdiv" style="margin-top: 10px;"><input id="agreement" name="agreement" type="checkbox" class="checkbox" required><div class="conditions">Согласен с условиями пользовательского<br> соглашения</div></div>
-               <div class="justdiv" style="margin-top: 10px;"><input id="notifications" type="checkbox" name="notifications" class="checkbox" checked>
+                  <div class="justdiv"><input id="notifications" type="checkbox" name="notifications" class="checkbox" checked>
                <div class="conditions">Хочу получать все новости о проекте</div></div>
-              </div>
-              <button class="rstmaster" style="margin-top: 15px;">Зарегистрироваться</button> 
+               <div class="justdiv" ><input id="agreement" name="agreement" type="checkbox" class="checkbox" required><div class="conditions">Согласен с условиями пользовательского<br> соглашения</div></div></div>
+              <button class="rstmaster">Зарегистрироваться</button> 
           </form>
         </div>
       </div>
