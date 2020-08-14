@@ -2030,7 +2030,7 @@ margin-left: 200px;
         height: 550px;
 }
   .tabs {
-  max-width: 1000px;
+  max-width: 1000px;;
   font-weight: 600;
   font-size: 20px;
 }
@@ -2493,6 +2493,13 @@ margin-left: 80px;
 
 }
 @media (max-width: 680px){
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .first-illustration{
+        width: 5px;
+    }
     .contact-btn{
         width: 170px;
         height: 45px;
@@ -2502,7 +2509,7 @@ margin-left: 80px;
     }
     .item-link{
         font-size: 10px;
-  margin-right: 25px;
+  margin-right: 10px;
     }
     .item-link:after {
   height: 1px;
@@ -2512,18 +2519,18 @@ margin-left: 80px;
   padding-top: 0px;
 }
     .main-nav{
-    margin-right: 50px;
+    margin-right: 10px;
         display: none;
 }
     .logo{
         margin-left: 40px;
-        margin-right: 50px;
+        margin-right: 20px;
         margin-top: 30px;
         font-size: 15px;
     }
 
     .header{
-        max-width: 1200px;
+        max-width: 600px;
     }
     .register-button{
         font-size: 12px;
@@ -2531,19 +2538,21 @@ margin-left: 80px;
         height: 25px;
         margin-top: 20px;
         display: none;
+        margin-left: 20px;
     }
     .heading{
         line-height: 50px;
         margin-left: 70px;
         font-size: 42px;
         max-width: 500px;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
     .subheading{
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         margin-left: 70px;
         font-size: 25px;
+        max-width: 500px;
         line-height: 20px;
     }
     .more-button{
@@ -2565,7 +2574,6 @@ margin-left: 80px;
         height: 300px;
     }
     .description{
-width: 100%;
         position: relative;
     }
     .d-heading {
@@ -2574,7 +2582,7 @@ width: 100%;
 }
     .d-info{
         position: absolute;
-        left: 70px;
+        left: 50px;
         width: 500px;
     }
 .d-text {
@@ -2598,6 +2606,7 @@ width: 100%;
   font-size: 30px;
     position: absolute;
     top: 0px;
+    max-width: 100%;
 }
 .advantage-content { 
     align-items: center;
@@ -2905,7 +2914,7 @@ margin-left: 30px;
   margin-left: 8px;
 }
     .d-info{
-        left: 45px;
+        left: 80px;
         width: 440px;
     }
     .d-heading{
@@ -3966,6 +3975,7 @@ margin-left: 20px;
         margin-left: 20px;
         font-size: 16.5px;
         line-height: 20px;
+        max-width: 350px;
     }
     .more-button{
         margin-left: 20px;
@@ -4038,26 +4048,27 @@ width: 70%;
     margin-right: 0px;
     height: 60%;
     width: 100px;
-margin-left: 10px;
+margin-left: 15px;
 }
 .i-heading {
-  font-size: 21px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 25px;
     margin-bottom: 0px;
 }
 .i-text {
   font-weight: 600;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 20px;
     margin-bottom: 10px;
 }
 .instagram-text{
-    width: 280px;
+    width: 240px;
+    margin-left: 0px;
 }
     .subscribe-button {
   width: 140px;
   height: 40px;
-  font-size: 18px;
+  font-size: 16px;
 }
       .thirdpart {
   height: 1000px;
@@ -4072,6 +4083,7 @@ margin-left: 10px;
         font-size: 20px;
         padding-bottom: 7px
     }
+   
 }
 @media(max-width:370px){
      .item-link{
@@ -4111,6 +4123,7 @@ margin-left: 10px;
         margin-left: 20px;
         font-size: 16.5px;
         line-height: 20px;
+        max-width: 335px;
     }
     .more-button{
         margin-left: 20px;
@@ -4121,7 +4134,7 @@ margin-left: 10px;
     .heading{
         margin-left: 20px;
         margin-top: 20px;
-        max-width: 350px;
+        max-width: 335px;
         font-size: 28px;
         line-height: 40px;
     }
@@ -4131,7 +4144,7 @@ margin-left: 10px;
         right: 10px;
     }
     .d-info{
-        left: 16px;
+        left: 10px;
         width: 340px;
     }
     .d-heading{
@@ -4242,4 +4255,7 @@ margin-left: 10px;
     line-height: 21px;
   margin-bottom: 15px;
 }
+    .time-section{
+        width: 10px;
+    }
 }
